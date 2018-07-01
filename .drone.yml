@@ -37,4 +37,4 @@ services:
     command: [ "--storage-driver=aufs", "--tls=false" ]
     privileged: true
     volumes:
-- /mnt/drone-dind:/var/lib/docker
+      - /mnt/drone-dind:/var/lib/docker
